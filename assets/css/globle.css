@@ -684,6 +684,7 @@ h4 {
   border-bottom: 1px solid var(--inputBorder);
   vertical-align: middle;
 }
+
 .tbl-active-span {
   font-size: var(--fontSize12);
   border-radius: 16px;
@@ -748,8 +749,21 @@ h4 {
   -o-border-radius: 100%;
 }
 .site-tbl table tr td .site-btn {
+  display: inline-flex;
   padding: 5px 10px;
   font-size: var(--fontSize12);
+}
+.site-tbl table tr td .site-btn img {
+  width: 14px;
+}
+.site-btn.btn-archive:hover img {
+  filter: brightness(0) invert(1);
+}
+.btn-trahs {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  box-shadow: 0 0 0;
 }
 .site-tbl-paginate {
   display: flex;
@@ -1055,7 +1069,7 @@ body.site-modal-open {
 
 .thanks-info h3 {
   font-size: 32px;
-  margin: 15px 0;
+  margin: 15px 0 25px;
 }
 /* steps form widget css end */
 
@@ -1201,7 +1215,7 @@ body.site-modal-open {
   :root {
     --fontSize16: 14px;
     --fontSize14: 12px;
-    --fontSize12: 11px;
+    /* --fontSize12: 11px; */
   }
   .input-icon,
   .header-right-elms button {
@@ -1209,6 +1223,9 @@ body.site-modal-open {
   }
   .sidebar-nav ul li a > span.menu-icon img {
     max-width: 18px;
+  }
+  .thanks-info h3 {
+    font-size: 24px;
   }
 }
 /************ globle css end *************/
