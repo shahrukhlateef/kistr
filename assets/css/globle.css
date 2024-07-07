@@ -284,6 +284,10 @@ h4 {
   font-size: var(--fontSize14);
   margin-bottom: 5px;
   color: #344054;
+  font-weight: 500;
+}
+.form-elm label sup {
+  color: #d92d20;
 }
 .input-wrap {
   width: 100%;
@@ -330,7 +334,7 @@ h4 {
 }
 .error-elm {
   font-size: var(--fontSize12);
-  color: red;
+  color: #d92d20;
   display: none;
 }
 .drop-area {
@@ -902,6 +906,9 @@ body.site-modal-open {
 .fullpage-modal .site-modal-head {
   text-align: center;
 }
+.fullpage-modal .site-modal-footer .site-btn {
+  width: 20%;
+}
 /* modal css end */
 
 /* steps form widget css start */
@@ -969,6 +976,28 @@ body.site-modal-open {
 .steps-form-widget ul li:last-child .step-icon::after,
 .steps-form-widget ul li:first-child .step-icon::before {
   content: none;
+}
+.step-form {
+}
+.step-form h3 {
+  width: 100%;
+  margin: 10px 0 20px;
+}
+.step-form .right,
+.step-form .left {
+  width: 48%;
+}
+
+.step1-form {
+  width: 30%;
+  margin: 0 auto;
+}
+.step2-form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 /* steps form widget css end */
 
