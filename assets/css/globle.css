@@ -883,7 +883,94 @@ body.site-modal-open {
   height: calc(100vh - 100px);
   background: #fff;
 }
+.fullpage-modal {
+  max-width: 90%;
+  max-height: 90%;
+  top: 0%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fullpage-modal .site-modal-items {
+  overflow: auto;
+  padding-right: 20px;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: #fff;
+}
+.fullpage-modal .site-modal-head {
+  text-align: center;
+}
 /* modal css end */
+
+/* steps form widget css start */
+.steps-form-widget {
+  margin: 20px 0;
+}
+.steps-form-widget ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.steps-form-widget ul li {
+  flex: 0 0 30%;
+  max-width: 30%;
+  position: relative;
+}
+.steps-form-widget ul li .step-icon {
+}
+.steps-form-widget ul li .step-icon img {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.steps-form-widget ul li h4 {
+  margin: 6px 0 3px;
+  font-weight: normal;
+}
+.steps-form-widget ul li.current h4 {
+  color: var(--secondery-color);
+}
+
+.steps-form-widget ul li .step-icon:before,
+.steps-form-widget ul li .step-icon:after {
+  position: absolute;
+  top: 12px;
+  z-index: 1;
+  content: "";
+  width: 50%;
+  height: 3.5px;
+  background-color: #e2e2e2;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.steps-form-widget ul li .step-icon:before {
+  left: -25px;
+}
+.steps-form-widget ul li .step-icon:after {
+  right: -25px;
+}
+.steps-form-widget ul li.done .step-icon:before,
+.steps-form-widget ul li.done .step-icon:after {
+  background-color: var(--secondery-color);
+}
+.steps-form-widget ul li.done + li .step-icon::before {
+  background-color: var(--secondery-color);
+}
+.steps-form-widget ul li:last-child .step-icon::after,
+.steps-form-widget ul li:first-child .step-icon::before {
+  content: none;
+}
+/* steps form widget css end */
 
 /* home-4boxes widget css start */
 .home-4boxes {
