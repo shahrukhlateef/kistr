@@ -17,7 +17,7 @@
     <div class="site-wraper">
         <aside class="site-sidbar">
             <header class="sidbar-head">
-                <img src="assets/images/kistr-logo-white.svg" alt="KISTR Logo" />
+                <img onclick="javascript:location.href='index.html'" src="assets/images/kistr-logo-white.svg" alt="KISTR Logo" />
             </header>
             <nav class="sidebar-nav">
                 <ul>
@@ -31,7 +31,7 @@
                         <button class="dd-nav-btn"><span class="icon-img"><img src="assets/images/chevron-down.png"
                                     alt=""></span></button>
                         <ul>
-                            <li><a href="">Overview</a></li>
+                            <li><a href="recruiting-vacancies.html">Overview</a></li>
                             <li><a href="">Communication</a></li>
                             <li><a href="">Absences</a></li>
                             <li><a href="">Compensation</a></li>
@@ -102,8 +102,11 @@
                 </div>
                 <hr />
                 <div class="filter-widget">
-                    <button class="filter-btn btn-gray"><span class="icon-img"><img src="assets/images/filter-2.png"
-                                alt=""></span> Filter</button>
+                    <button class="filter-btn btn-gray" onclick="javascript:location.href='dashboard-filter.html'">
+                        <span class="icon-img">
+                            <img src="assets/images/filter-2.png"alt="" />
+                        </span> Filter
+                    </button>
                     <div class="input-wrap filter-widget-search">
                         <button class="input-icon"><span class="icon-home"></span></button>
                         <input type="search" class="input-elm"
@@ -115,11 +118,11 @@
                     <div class="tbl-nav">
                         <ul>
                             <li><a class="active" href="dashboard.html">List view</a></li>
-                            <li><a href="javscript:void(0)">Orgchart</a></li>
+                            <li><a href="dashboard-org-chart.html">Orgchart</a></li>
                             <li><a href="dashboard-file.html">Files</a></li>
                         </ul>
 
-                        <button class="site-btn btn-secondery" onclick="javascript:location.href='modal.html'"><span
+                        <button class="site-btn btn-secondery" onclick="javascript:location.href='add-emp-modal-fullpage.html'"><span
                                 class="icon-img"><img src="assets/images/plus.png" alt=""></span> Add
                             employee</button>
                     </div>

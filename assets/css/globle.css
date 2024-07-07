@@ -236,6 +236,7 @@ h4 {
 .site-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   padding: 10px 18px;
   font-weight: 500;
@@ -768,6 +769,9 @@ h4 {
 .paginate-btn:hover {
   background: #f9fafb;
 }
+.paginate-btn img {
+  width: 16px;
+}
 .paginate-nums {
   display: flex;
   align-items: center;
@@ -1041,6 +1045,17 @@ body.site-modal-open {
 }
 .step-form .drop-area {
   height: 80px;
+}
+.thanks-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thanks-info h3 {
+  font-size: 32px;
+  margin: 15px 0;
 }
 /* steps form widget css end */
 
