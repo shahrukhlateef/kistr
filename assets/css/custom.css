@@ -1,0 +1,246 @@
+@import url("kistr-icon.css");
+@import url("globle.css");
+@import url("login-page.css");
+
+/* bk start */
+/************ Filter ***************/
+
+.filter-tbl-wrap {
+  display: flex;
+  gap: 40px;
+}
+
+.filter-tbl-wrap .right {
+  width: 70%;
+}
+
+.filter-tbl-wrap .left {
+  background: #f6f9fd;
+  padding: 15px;
+  border-radius: 15px;
+  width: 30%;
+}
+
+.filter-head {
+  margin-bottom: 10px;
+}
+
+.filter-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #deddf6;
+  padding-bottom: 5px;
+}
+
+.filter-head span {
+  color: #344054;
+  font-family: Inter;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.filter-type {
+  margin-top: 15px;
+}
+
+.filter-type p {
+  color: #344054;
+  font-family: Inter;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom: 1px solid #deddf6;
+  padding-bottom: 5px;
+}
+
+.filter-type ul {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.filter-type ul li {
+  list-style: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px 16px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.filter-btn-wrap {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn-wrap button {
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  font-weight: 500;
+  font-family: Inter;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.filter-btn-wrap .btn1 {
+  margin-bottom: 10px;
+  background: #5451f2;
+  color: #fff;
+}
+
+.filter-btn-wrap .btn2 {
+  background: #fff;
+  color: #293854;
+}
+
+/************ ORG Chart***************/
+
+.org-chart {
+  display: flex;
+  justify-content: center;
+}
+
+.org-chart table td {
+  padding: 10px;
+}
+
+.org-chart .google-visualization-orgchart-node {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.org-chart .org-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.15);
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.org-chart .org-wrap .s1 {
+  color: #344054;
+  font-family: Inter;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+/************ Recruiting Vacancies ***************/
+
+.vacancies-box {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 1px 1px 2.8px 0px rgba(0, 0, 0, 0.25);
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 130px;
+  grid-row-gap: 25px;
+}
+
+.vacancies-box .box {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 1px 1px 2.8px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+}
+
+.vacancies-box .box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vacancies-box .box-header h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.vacancies-box .box-header select {
+  border-radius: 16px;
+  background: var(--Success-50, #ecfdf3);
+  border: 0;
+  color: #027a48;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 10px 15px 10px 25px;
+  outline: none;
+}
+
+.vacancies-box .box-body p {
+  color: #000;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.vacancies-box .box-body p span {
+  width: 25px;
+  height: 25px;
+  background: #a6f9a6;
+  margin-left: 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #293854;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.vacancies-box .box-body .btn-gray {
+  position: relative;
+  padding: 10px 15px 10px 40px;
+  color: #293854;
+  font-weight: 600;
+  background: #dee5ef;
+}
+
+.vacancies-box .box-body .btn-gray:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 19px;
+  height: 18px;
+  background: url(../../assets/images/share.png);
+}
+
+.select-cover {
+  position: relative;
+}
+
+.select-cover:before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  background: #12b76a;
+  border-radius: 50px;
+}
+/* bk end */

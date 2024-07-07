@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KISTR Login</title>
+    <link rel="icon" href="assets/images/fav-icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+
+    <div class="site-wraper">
+        <aside class="site-sidbar">
+            <header class="sidbar-head">
+                <img src="assets/images/kistr-logo-white.svg" alt="KISTR Logo" />
+            </header>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href=""><span class="icon-home"></span> Dashboard</a></li>
+                    <li><a href=""><span class="icon-home"></span> Inbox</a></li>
+                    <li><a href=""><span class="icon-home"></span> Employees</a></li>
+                    <li><a href=""><span class="icon-home"></span> Recruiting</a></li>
+                    <li><a href=""><span class="icon-home"></span> Calendar</a></li>
+                    <li>
+                        <a href=""><span class="icon-home"></span> Employees </a>
+                        <button class="dd-nav-btn"><span class="icon-arrow-down2"></span></button>
+                        <ul>
+                            <li><a href="">Overview</a></li>
+                            <li><a href="">Communication</a></li>
+                            <li><a href="">Absences</a></li>
+                            <li><a href="">Compensation</a></li>
+                            <li><a href="">Payroll</a></li>
+                            <li><a href="">Performance</a></li>
+                            <li><a href="">Training</a></li>
+                            <li><a href="">Surveys</a></li>
+                            <li><a href="">Whistleblowing</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href=""><span class="icon-home"></span> Reporting</a></li>
+                    <li><a href=""><span class="icon-home"></span> Automations</a></li>
+                    <li><a href=""><span class="icon-home"></span> Support</a></li>
+                    <li><a href=""><span class="icon-home"></span> Marketplace</a></li>
+                </ul>
+            </nav>
+            <footer class="sidebar-footer">
+                <button class="sidebar-close-btn"><span class="icon-home"></span></button>
+            </footer>
+        </aside>
+        <main class="site-main">
+            <header class="main-header">
+                <div class="search-widget-top">
+                    <div class="input-wrap input-placeholder-light">
+                        <button class="input-icon">
+                            <span class="icon-home"></span></button>
+                        <input type="search" class="input-elm" name="" id="" placeholder="Search" />
+                    </div>
+                </div>
+                <div class="header-right-elms">
+                    <div class="search-elm right-elm-icon">
+                        <button><span class="icon-home"></span></button>
+                    </div>
+                    <div class="setting-elm right-elm-icon">
+                        <button><span class="icon-home"></span></button>
+                    </div>
+                    <div class="bell-elm right-elm-icon">
+                        <button><span class="icon-home"></span></button>
+                    </div>
+                    <div class="user-elm right-elm-icon">
+                        <button><img src="assets/images/user-img.png" alt="" /></button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="main-body">
+                <div class="site-breadcrumb">
+                    <ul>
+                        <li><a href="">Employees</a></li>
+                        <li>Overview</li>
+                    </ul>
+                </div>
+                <div class="page-title-widget">
+                    <h1>Hello Wolfgang <span class="emp-count">20</span></h1>
+                </div>
+                <hr />
+                <div class="filter-widget">
+                    <button class="filter-btn btn-gray"><span class="icon-home"></span> Filter</button>
+                    <div class="input-wrap filter-widget-search">
+                        <button class="input-icon"><span class="icon-home"></span></button>
+                        <input type="search" class="input-elm"
+                            placeholder="Type in Name, Function or other attributes to start searching...">
+                    </div>
+                </div>
+
+                <div class="site-tbl-widget tab-nav-widget">
+                    <div class="tbl-nav">
+                        <ul>
+                            <li><a class="active" href="dashboard.html">List view</a></li>
+                            <li><a href="javscript:void(0)">Orgchart</a></li>
+                            <li><a href="dashboard-file.html">Files</a></li>
+                        </ul>
+
+                        <button class="site-btn btn-secondery" onclick="javascript:location.href='modal.html'"><span
+                                class="icon-home"></span> Add employee</button>
+                    </div>
+
+                    <div class="site-tbl">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th><input type="checkbox" name="" id=""></th>
+                                    <th>Name</th>
+                                    <th>Status</th>
+                                    <th>Employment</th>
+                                    <th>Email</th>
+                                    <th>Location</th>
+                                    <th>Teams</th>
+                                    <th>Role</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>
+                                        <div class="tbl-name">
+                                            <img src="assets/images/user-img.png" alt="" /> <span>Olivia Rhye</span>
+                                        </div>
+                                    </td>
+                                    <td> <span class="tbl-active-span">Active</span> </td>
+                                    <td>Intern</td>
+                                    <td>olivia@kistr.de</td>
+                                    <td>Munich</td>
+                                    <td>
+                                        <div class="tbl-team-span">
+                                            <span>Design</span>
+                                            <span>Marketing</span>
+                                        </div>
+                                    </td>
+                                    <td>Head of Design</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>
+                                        <div class="tbl-name">
+                                            <img src="assets/images/user-img.png" alt="" /> <span>Olivia Rhye</span>
+                                        </div>
+                                    </td>
+                                    <td> <span class="tbl-active-span">Active</span> </td>
+                                    <td>Intern</td>
+                                    <td>olivia@kistr.de</td>
+                                    <td>Munich</td>
+                                    <td>
+                                        <div class="tbl-team-span">
+                                            <span>Product</span>
+                                            <span>Marketing</span>
+                                        </div>
+                                    </td>
+                                    <td>Head of Design</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>
+                                        <div class="tbl-name">
+                                            <img src="assets/images/user-img.png" alt="" /> <span>Olivia Rhye</span>
+                                        </div>
+                                    </td>
+                                    <td> <span class="tbl-active-span">Active</span> </td>
+                                    <td>Intern</td>
+                                    <td>olivia@kistr.de</td>
+                                    <td>Munich</td>
+                                    <td>
+                                        <div class="tbl-team-span">
+                                            <span>Design</span>
+                                            <span>Product</span>
+                                            <span>Marketing</span>
+                                            <span>+2</span>
+                                        </div>
+                                    </td>
+                                    <td>Head of Design</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>
+                                        <div class="tbl-name">
+                                            <img src="assets/images/user-img.png" alt="" /> <span>Olivia Rhye</span>
+                                        </div>
+                                    </td>
+                                    <td> <span class="tbl-active-span">Active</span> </td>
+                                    <td>Intern</td>
+                                    <td>olivia@kistr.de</td>
+                                    <td>Munich</td>
+                                    <td>
+                                        <div class="tbl-team-span">
+                                            <span>Design</span>
+
+                                        </div>
+                                    </td>
+                                    <td>Head of Design</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>
+                                        <div class="tbl-name">
+                                            <img src="assets/images/user-img.png" alt="" /> <span>Olivia Rhye</span>
+                                        </div>
+                                    </td>
+                                    <td> <span class="tbl-active-span">Active</span> </td>
+                                    <td>Intern</td>
+                                    <td>olivia@kistr.de</td>
+                                    <td>Munich</td>
+                                    <td>
+                                        <div class="tbl-team-span">
+                                            <span>Design</span>
+                                            <span>Product</span>
+
+                                        </div>
+                                    </td>
+                                    <td>Head of Design</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="" id=""></td>
+                                    <td>
+                                        <div class="tbl-name">
+                                            <img src="assets/images/user-img.png" alt="" /> <span>Olivia Rhye</span>
+                                        </div>
+                                    </td>
+                                    <td> <span class="tbl-active-span">Active</span> </td>
+                                    <td>Intern</td>
+                                    <td>olivia@kistr.de</td>
+                                    <td>Munich</td>
+                                    <td>
+                                        <div class="tbl-team-span">
+                                            <span>Design</span>
+                                            <span>Product</span>
+                                            <span>Marketing</span>
+                                            <span>+2</span>
+                                        </div>
+                                    </td>
+                                    <td>Head of Design</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <hr />
+                    <div class="site-tbl-paginate">
+                        <button class="prev paginate-btn"><span class="icon-home"></span> Prev</button>
+                        <ul class="paginate-nums">
+                            <li><a href="">1</a></li>
+                            <li><a href="" class="active">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">...</a></li>
+                            <li><a href="">8</a></li>
+                            <li><a href="">9</a></li>
+                            <li><a href="">10</a></li>
+                        </ul>
+                        <button class="next paginate-btn">Next <span class="icon-home"></span></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </main>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
