@@ -1216,6 +1216,122 @@ body.site-modal-open {
 
 /* home-4boxes widget css end */
 
+/* employee-details-info css start */
+.emp-basic-info-widget {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--white-color);
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+.emp-basic-info-widget ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.emp-basic-info-widget ul li {
+  margin: 0 10px;
+  position: relative;
+}
+.emp-basic-info-widget ul li a {
+  color: var(--secondery-color);
+  text-decoration: underline;
+}
+.emp-basic-info-widget ul li:first-child {
+  margin-left: 0;
+}
+.emp-basic-info-widget ul li + li:before {
+  content: "";
+  width: 2px;
+  height: 80%;
+  position: absolute;
+  left: -15px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: var(--inputBorder);
+}
+.emp-basic-info-widget ul li > div {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0;
+}
+.emp-basic-info-widget ul li .tbl-name > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.emp-basic-info-widget ul li .tbl-name img {
+  width: 76px;
+  height: 76px;
+}
+.emp-basic-info-widget ul li .user-name {
+  font-size: var(--fontSize16);
+  color: var(--primeray-color);
+}
+.emp-profile-widget .tbl-nav {
+  margin-bottom: 0;
+}
+.emp-profile-widget .tbl-nav ul {
+}
+.emp-profile-widget .tbl-nav ul li {
+  flex: 0.09%;
+}
+.emp-profile-widget .tbl-nav ul li a {
+  color: var(--primeray-color);
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
+}
+.emp-profile-widget .tbl-nav ul li a.active {
+  background-color: #b8b7f9;
+  color: var(--secondery-color);
+}
+.emp-profile-body {
+  padding: 15px;
+}
+.emp-profile-body header {
+  margin: 0px 0 25px;
+}
+.emp-profile-body header h2 {
+  font-size: 24px;
+}
+.emp-profile-content {
+}
+.emp-profile-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  list-style: none;
+}
+.emp-profile-content ul li {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+.emp-profile-content ul li h4 {
+  margin-bottom: 5px;
+}
+.emp-profile-content ul li a {
+  color: var(--secondery-color);
+}
+.btn-emp-profile-edit {
+  padding: 4px 8px;
+  float: right;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/* employee-details-info css end */
+
 @media only screen and (max-width: 1535px) {
   :root {
     --fontSize16: 14px;
