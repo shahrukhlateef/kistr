@@ -688,6 +688,7 @@ h4 {
   padding: 0.5rem 0.5rem;
   border-bottom: 1px solid var(--inputBorder);
   vertical-align: middle;
+  height: 60px;
 }
 
 .tbl-active-span {
