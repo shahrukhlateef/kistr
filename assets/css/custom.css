@@ -1,10 +1,10 @@
 @import url("kistr-icon.css");
 @import url("globle.css");
 @import url("login-page.css");
+@import url("dashboard.css");
 
 /* bk start */
 /************ Filter ***************/
-
 .filter-tbl-wrap {
   display: flex;
   gap: 40px;
