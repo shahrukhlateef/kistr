@@ -663,6 +663,11 @@ body.site-modal-open {
   max-width: 50%;
   padding: 0 15px;
 }
+.input-col-3 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  padding: 0 15px;
+}
 .step-form .uploadFile {
   flex-direction: row;
   gap: 15px;
@@ -1082,6 +1087,7 @@ body.site-modal-open {
   color: #007df8;
 }
 /* absence details box css start */
+.interview-schedule-widget,
 .absnc-detail-widget {
   position: relative;
   padding: 16px;
@@ -1093,6 +1099,7 @@ body.site-modal-open {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+.interview-schedule-widget .crose-btn,
 .absnc-detail-widget .crose-btn {
   position: absolute;
   right: 16px;
@@ -1104,6 +1111,7 @@ body.site-modal-open {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+.interview-schedule-widget h3,
 .absnc-detail-widget h3 {
   margin-bottom: 40px;
 }
@@ -1153,6 +1161,11 @@ body.site-modal-open {
   color: var(--white-color);
 }
 /* absence details box css end */
+
+/* schedule interview box css start */
+
+/* schedule interview box css end */
+
 /* dashboard main inbox page css end */
 
 /* dashboard responsive css start */
@@ -1180,6 +1193,10 @@ body.site-modal-open {
   }
   .emp-salary-info-item h3 {
     font-size: 14px;
+  }
+  .input-col,
+  .input-col-3 {
+    padding: 0 8px;
   }
 }
 /* dashboard responsive css end */
