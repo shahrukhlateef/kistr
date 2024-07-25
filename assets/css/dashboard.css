@@ -1081,6 +1081,78 @@ body.site-modal-open {
 .history-list ul li.renewed-item span:first-child {
   color: #007df8;
 }
+/* absence details box css start */
+.absnc-detail-widget {
+  position: relative;
+  padding: 16px;
+  background: #fff;
+  box-shadow: 1px 1px 2.8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.absnc-detail-widget .crose-btn {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  padding-top: 3px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.absnc-detail-widget h3 {
+  margin-bottom: 40px;
+}
+.absnc-detail-head {
+  margin-bottom: 20px;
+}
+.absnc-detail-head span > small {
+  font-size: var(--fontSize14);
+}
+.absnc-detail-body {
+  font-size: var(--fontSize14);
+  min-height: 200px;
+}
+.absnc-detail-body table {
+  width: 100%;
+}
+.absnc-detail-body table tr th {
+  text-align: left;
+}
+.absnc-detail-body table tr td {
+  text-align: right;
+}
+.absnc-detail-body table tr td span {
+  display: block;
+}
+.absnc-detail-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.absnc-detail-footer .btn {
+  width: 200px;
+  height: 36px;
+  font-size: var(--fontSize16);
+  padding: 4px 16px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.absnc-detail-footer .btn:first-child {
+  background-color: rgba(254, 243, 242, 1);
+}
+.absnc-detail-footer .btn:last-child {
+  background-color: rgba(3, 152, 85, 1);
+  color: var(--white-color);
+}
+/* absence details box css end */
 /* dashboard main inbox page css end */
 
 /* dashboard responsive css start */
