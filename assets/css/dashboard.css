@@ -1163,6 +1163,21 @@ body.site-modal-open {
 /* absence details box css end */
 
 /* schedule interview box css start */
+.interview-schedule-widget {
+}
+.interview-schedule-head {
+}
+.interview-schedule-body {
+}
+.interview-schedule-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.interview-schedule-footer .site-btn {
+  width: 100px;
+}
 
 /* schedule interview box css end */
 
@@ -1193,6 +1208,10 @@ body.site-modal-open {
   }
   .emp-salary-info-item h3 {
     font-size: 14px;
+  }
+  .input-row {
+    margin-left: -8px;
+    margin-right: -8px;
   }
   .input-col,
   .input-col-3 {
