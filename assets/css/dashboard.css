@@ -1067,6 +1067,7 @@ body.site-modal-open {
   color: #007df8;
 }
 /* absence details box css start */
+.no-interview-widget,
 .interview-schedule-widget,
 .absnc-detail-widget {
   position: relative;
@@ -1079,6 +1080,7 @@ body.site-modal-open {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+.no-interview-widget .crose-btn,
 .interview-schedule-widget .crose-btn,
 .absnc-detail-widget .crose-btn {
   position: absolute;
@@ -1091,6 +1093,7 @@ body.site-modal-open {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+.no-interview-widget h3,
 .interview-schedule-widget h3,
 .absnc-detail-widget h3 {
   margin-bottom: 40px;
